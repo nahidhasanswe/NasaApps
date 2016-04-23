@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Suggestion for your responsibility"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:paddingTop="10dp"
+       android:paddingLeft="10dp"
+       android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increase 750 pound/year per Capita"
+        android:paddingLeft="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/perCapita"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tree"
+                android:id="@+id/treePlantation"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestion-1: A adult tree reduce 48 pound or 21.77 Kg per year. So, you will plant at least four tree to reduce 187.5 pound per year from atmosphere."
+                android:id="@+id/suggestion1"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/treePlantation"
+                android:paddingBottom="20dp"
+                />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/suggestion1"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/plastic"
+                android:src="@drawable/recycle_plastic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestion-2: Per capita consumption of plastics in Bangladesh is 5 kg per year. If you will recycle use at least 2 Kg plastic then you will able to reduce carbon 960 pound per Year."
+                android:id="@+id/suggestion2"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/plastic"
+                android:paddingBottom="20dp"
+                />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/suggestion2"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/Led"
+                android:src="@drawable/ledlight"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestion-3: If you will use LED bulb instead of five old Helozen bulb then you will able to reduce carbon 250 pound per year."
+                android:id="@+id/suggestion3"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Led"
+                android:paddingBottom="20dp"
+                />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/suggestion3"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/transport"
+                android:src="@drawable/transport"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestion-4: If you will use Gas instead of Fuel Engine then you will able to reduce Carbon 320 pound per year.."
+                android:id="@+id/suggestion4"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/transport"
+                android:paddingBottom="20dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

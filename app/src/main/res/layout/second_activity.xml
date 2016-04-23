@@ -193,22 +193,25 @@
         android:paddingTop="10dp"
         />
 
-    <TextView
+
+   <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Temperature Increase 0.87 degree Centregrate"
+        android:text="Total 60000 Kilotons CO2 in atmosphere"
         android:layout_below="@+id/transport"
-        android:paddingTop="15dp"
-        android:textSize="25dp"
-        android:id="@+id/increaseText"
-        android:paddingBottom="20dp"/>
+        android:textSize="18dp"
+        android:id="@+id/carbon"
+       android:paddingBottom="20dp"
+        android:paddingTop="20dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Suggestion"
-        android:layout_below="@+id/increaseText"
+        android:layout_below="@+id/carbon"
         android:layout_centerHorizontal="true"
+        android:id="@+id/suggestion"
         />
+
 
 </RelativeLayout>
